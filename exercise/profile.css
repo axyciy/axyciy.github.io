@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+
+.my-face{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid #aaa;
+    margin-top: 100px;
+   }
+   
+   .my-name{
+    text-align: center;
+   }
+
+   .my-caption{
+    text-align: center;
+    font-family: "Lato";
+
+
+   }
+
+   .my-form{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    input[type]{
+        -webkit-appearance: none;
+        width: 30%;
+        font-size: 1.5rem;
+        height:2rem;
+    }
+
+    input[type=text]{
+        width: 150px;
+        border:none;
+    }
+
+    input[type=textarea]{
+        width: 150px;
+        border:none;
+    }
+
+    input[type=submit]{
+    height:2rem;
+    border:none;
+    background-color:brown;
+    color:white;
+    }
+    
+    input[type=submit]:hover{
+        background-color: orangered;
+    
+    }
+    
+    input[type]:-webkit -autofill {
+        box-shadow: 1px 0 0px 1000px white inset;
+    }
+    

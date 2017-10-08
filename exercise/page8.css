@@ -1,0 +1,34 @@
+
+
+.my-form-group{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+input[type]{
+    -webkit-appearance: none;
+    width: 100%;
+    font-size: 1.5rem;
+    height:2rem;
+}
+input[type=text],
+input[type=email]{
+    border:none;
+border-bottom: 1px solid orangered;
+}
+
+input[type=submit]{
+    height:3rem;
+border:none;
+background-color: black;
+color:white;
+}
+
+input[type=submit]:hover{
+    background-color: orangered;
+
+}
+
+input[type]:-webkit -autofill {
+    box-shadow: 1px 0 0px 1000px white inset;
+}

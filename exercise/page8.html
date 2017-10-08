@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formdesign</title>
+    <link rel="stylesheet" href="page8.css">
+    <style>  
+    *{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    }
+    .container{
+        display: flex;
+        background-color: grey;
+        padding: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .child{
+background-color: red;
+padding: 10px;
+flex-grow:1;
+flex-basis: 100px;
+    }
+.child-big{
+    flex-grow:2;
+flex-basis: 300px;
+background-color: yellowgreen;
+}
+    </style>
+
+</head>
+<body class="my-form-group">
+    <form action="www.test-12334.com/submit" method="POST">
+        <div >
+            <label for="name_txt">
+            Username
+            </label>
+           
+            <input type="text" id="name_txt" name="Username" required placeholder="input name" border="none"> 
+        </div>
+        
+        <div >
+                <label for="email_txt">
+                Email
+                </label>
+                
+                <input type="email" id="email_txt" name="email" required placeholder="input email"> 
+        </div>
+        <textarea name="my_message" placeholder="Input your text here" rows="10"></textarea>
+
+        <input type="Submit" value"SIGN IN">
+
+    </form>
+</div>
+        
+    </form>
+
+
+<div class="container">
+    <div class="child">
+        Child 1
+    </div>
+    <div class="child-big">
+        Child 2
+    </div>
+    <div class="child">
+        child 3
+    </div>
+</div>
+
+</body>
+</html>
